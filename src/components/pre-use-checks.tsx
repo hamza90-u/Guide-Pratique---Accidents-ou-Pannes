@@ -1,34 +1,29 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card } from "@/components/ui/card";
-import { Car, FileText, Gauge, Droplets, Lamp } from "lucide-react";
+import { Car, Droplets, FileText, TriangleAlert } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const checks = [
   {
     icon: Car,
-    title: "État général du véhicule",
-    description: "Inspecter l'extérieur pour tout dommage ou problème visible."
-  },
-  {
-    icon: FileText,
-    title: "Documents de bord",
-    description: "S'assurer que la carte grise, l'assurance et le guide sont présents."
-  },
-  {
-    icon: Gauge,
-    title: "Pneumatiques",
-    description: "Vérifier la pression des pneus et rechercher l'usure ou les dommages."
+    title: "État général",
+    description: "Vérifier l'état général (carrosserie, pneus, rétroviseieurs, feux)."
   },
   {
     icon: Droplets,
     title: "Niveaux des fluides",
-    description: "Vérifier les niveaux d'huile, de liquide de refroidissement et de lave-glace."
+    description: "Vérifier le niveau des fluides (huile, lave-glace)."
   },
   {
-    icon: Lamp,
-    title: "Éclairage et signalisation",
-    description: "Tester tous les feux, clignotants et feux de détresse."
+    icon: FileText,
+    title: "Documents de bord",
+    description: "Vérifier la présence des documents (carte grise, assurance, vignette, visite technique, autorisation de circulation ou location)."
+  },
+  {
+    icon: TriangleAlert,
+    title: "Signalement",
+    description: "Signaler tout dommage préexistant."
   }
 ];
 
