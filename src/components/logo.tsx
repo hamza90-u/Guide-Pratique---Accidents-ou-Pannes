@@ -1,9 +1,14 @@
 import React from 'react';
+import Image from 'next/image';
 
 export function Logo() {
   return (
-    <span className="font-headline text-3xl font-bold tracking-tight text-primary">
-      ALSTOM
-    </span>
+    <Image
+      src="/Alstom_logo.svg.png"
+      alt="Alstom Logo"
+      width={130}
+      height={30}
+      priority
+    />
   );
 }
