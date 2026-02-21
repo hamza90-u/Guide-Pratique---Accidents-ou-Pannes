@@ -8,27 +8,27 @@ const checks = [
   {
     icon: Car,
     title: "État général du véhicule",
-    description: "Inspect exterior for any visible damage or issues."
+    description: "Inspecter l'extérieur pour tout dommage ou problème visible."
   },
   {
     icon: FileText,
     title: "Documents de bord",
-    description: "Ensure registration, insurance, and guide are present."
+    description: "S'assurer que la carte grise, l'assurance et le guide sont présents."
   },
   {
     icon: Gauge,
     title: "Pneumatiques",
-    description: "Check tire pressure and look for wear or damage."
+    description: "Vérifier la pression des pneus et rechercher l'usure ou les dommages."
   },
   {
     icon: Droplets,
     title: "Niveaux des fluides",
-    description: "Verify oil, coolant, and washer fluid levels."
+    description: "Vérifier les niveaux d'huile, de liquide de refroidissement et de lave-glace."
   },
   {
     icon: Lamp,
     title: "Éclairage et signalisation",
-    description: "Test all lights, indicators, and hazard signals."
+    description: "Tester tous les feux, clignotants et feux de détresse."
   }
 ];
 
@@ -41,7 +41,7 @@ export function PreUseChecks() {
         <AccordionItem value="pre-use-checks" className="border-none">
           <AccordionTrigger className="p-6 text-left font-semibold hover:no-underline [&[data-state=open]]:border-b">
             <div>
-              <h3 className="font-headline text-2xl font-semibold leading-none tracking-tight">Avant d'utiliser un véhicule</h3>
+              <h3 className="font-headline text-2xl font-semibold leading-none tracking-tight">Avant d'utiliser un véhicule Alstom</h3>
               <p className="text-sm text-muted-foreground pt-1.5 font-normal">Effectuez ces vérifications critiques pour votre sécurité.</p>
             </div>
           </AccordionTrigger>

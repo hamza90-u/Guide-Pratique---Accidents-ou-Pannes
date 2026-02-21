@@ -7,7 +7,7 @@ export function Header() {
         <div className="ml-3 flex items-center gap-2">
           <Logo />
           <h2 className="font-headline text-xl font-semibold text-foreground/80">
-            Guide Mobile
+          Guide Pratique : Accidents ou Pannes 
           </h2>
         </div>
       </div>
