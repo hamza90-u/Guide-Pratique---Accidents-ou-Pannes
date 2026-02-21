@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "vehicle-check",
+      "description": "A person checking the tires of a vehicle.",
+      "imageUrl": "https://images.unsplash.com/photo-1764934544222-01ff0623b261?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2ZWhpY2xlJTIwbWFpbnRlbmFuY2V8ZW58MHx8fHwxNzcxNjg5Njk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vehicle maintenance"
+    },
+    {
+      "id": "accident-scene",
+      "description": "A warning triangle placed on the road next to a car with hazard lights on.",
+      "imageUrl": "https://images.unsplash.com/photo-1591497108596-436c1a1a5c8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjYXIlMjBhY2NpZGVudHxlbnwwfHx8fDE3NzE2MDYwNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car accident"
+    },
+    {
+      "id": "breakdown-assist",
+      "description": "A tow truck assisting a broken down car on the highway.",
+      "imageUrl": "https://images.unsplash.com/photo-1768974522043-08af8dc45871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb2Fkc2lkZSUyMGFzc2lzdGFuY2V8ZW58MHx8fHwxNzcxNjg5Njk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "roadside assistance"
+    }
+  ]
 }
