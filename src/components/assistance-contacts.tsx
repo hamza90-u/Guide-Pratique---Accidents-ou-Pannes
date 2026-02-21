@@ -23,9 +23,9 @@ export function AssistanceContacts() {
                  <div className="flex h-10 w-10 items-center justify-center rounded-md bg-accent/10 text-accent-foreground">
                    <LifeBuoy className="h-5 w-5 text-primary" />
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <p className="font-semibold">{contact.name}</p>
-                  <p className="text-sm text-muted-foreground">{contact.number || contact.email}</p>
+                  <p className="text-sm text-muted-foreground break-words">{contact.number || contact.email}</p>
                 </div>
                 {contact.type === 'tel' ? <Phone className="h-5 w-5 text-muted-foreground" /> : <Mail className="h-5 w-5 text-muted-foreground" />}
               </div>
