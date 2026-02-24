@@ -52,7 +52,7 @@ export function PreUseChecks() {
                     </div>
                     <div>
                       <h4 className="font-semibold">{check.title}</h4>
-                      <p className="text-sm text-muted-foreground">{check.description}</p>
+                      <p className="text-sm text-muted-foreground break-words">{check.description}</p>
                     </div>
                   </li>
                 ))}

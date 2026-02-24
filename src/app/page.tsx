@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="flex-1 container mx-auto p-4 md:p-8">
         <div className="mb-8 text-center animate-in fade-in duration-300">
-            <h1 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">Guide pratique en cas d'accident ou de panne</h1>
+            <h1 className="font-headline text-2xl font-bold tracking-tight md:text-4xl">Guide pratique en cas d'accident ou de panne</h1>
         </div>
         <div className="grid gap-12">
           <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 ease-out">
