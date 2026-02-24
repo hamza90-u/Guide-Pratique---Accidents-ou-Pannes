@@ -5,13 +5,12 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const accidentSteps = [
-  { icon: ParkingCircle, text: "Se garer sur le côté ou, idéalement, sur la bande d'arrêt d'urgence." },
   { icon: TriangleAlert, text: "Sécuriser les lieux : Allumez les feux de détresse et placez le triangle de signalisation (à ~30m en ville et 100m sur autoroute)." },
-  { icon: Shirt, text: "Se mettre en sécurité : Portez votre gilet de haute visibilité. Faites sortir tous les passagers par les portes du côté droit et mettez-vous à l'abri derrière la barrière de sécurité." },
+  { icon: Shirt, text: "Se mettre en sécurité : Portez votre gilet de haute visibilité. Faites sortir tous les passagers et mettez-vous à l'abri derrière la barrière de sécurité." },
   { icon: HeartPulse, text: <>Vérifier s'il y a des blessés : Appelez les secours si nécessaire (Police, Pompiers). <a href="#emergency-contacts" className="underline text-primary hover:text-primary/80">Voir ci-dessous</a></> },
   { icon: Contact, text: "Remplir le constat amiable : Échangez les informations avec le service FM par e-mail ou par téléphone." },
   { icon: Camera, text: "Prendre des photos : Documentez la scène, les dégâts et les plaques d'immatriculation." },
-  { icon: PhoneForwarded, text: "Contacter l'assistance : Appelez Wafa LLD ou Arval LLD pour le remorquage." },
+  { icon: PhoneForwarded, text: <>Contacter l'assistance : Appelez Wafa LLD ou Arval LLD pour le remorquage. <a href="#assistance-contacts" className="underline text-primary hover:text-primary/80">Voir ci-dessous</a></>},
 ];
 
 const breakdownSteps = [

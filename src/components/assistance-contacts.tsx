@@ -10,7 +10,7 @@ const contacts = [
 
 export function AssistanceContacts() {
   return (
-    <Card className="w-full overflow-hidden">
+    <Card id="assistance-contacts" className="w-full overflow-hidden">
       <CardHeader className="p-3 sm:p-4">
         <CardTitle className="font-headline text-lg sm:text-xl">Assistance & Technique</CardTitle>
         <CardDescription className="text-xs">Pour le remorquage, l'assistance ou les questions techniques.</CardDescription>
