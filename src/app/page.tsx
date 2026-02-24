@@ -6,7 +6,7 @@ import { AssistanceContacts } from '@/components/assistance-contacts';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen w-full flex-col bg-background">
+    <div className="flex min-h-screen w-full flex-col bg-background overflow-x-hidden">
       <Header />
       <main className="flex-1 container mx-auto p-4 md:p-8">
         <div className="mb-8 text-center animate-in fade-in duration-300">
