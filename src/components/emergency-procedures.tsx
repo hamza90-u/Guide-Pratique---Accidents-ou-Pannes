@@ -12,7 +12,6 @@ const accidentSteps = [
   { icon: Contact, text: "Remplir le constat amiable : Échangez les informations avec le service FM par e-mail ou par téléphone." },
   { icon: Camera, text: "Prendre des photos : Documentez la scène, les dégâts et les plaques d'immatriculation." },
   { icon: PhoneForwarded, text: "Contacter l'assistance : Appelez Wafa LLD ou Arval LLD pour le remorquage." },
-  { icon: PhoneForwarded, text: "Appeler ou envoyer un e-mail au service FM." },
 ];
 
 const breakdownSteps = [
@@ -21,6 +20,7 @@ const breakdownSteps = [
   { icon: Wrench, text: "Ne pas tenter de réparation complexe : N'intervenez pas sur le moteur ou des pièces complexes." },
   { icon: PhoneForwarded, text: "Contacter l'assistance : Appelez Wafa LLD ou Arval LLD pour une aide technique." },
   { icon: ShieldCheck, text: "Attendre L’assistance : Restez à l'abri et loin de la circulation." },
+  { icon: PhoneForwarded, text: "Appeler ou envoyer un e-mail au service FM." },
 ];
 
 const accidentImage = PlaceHolderImages.find(p => p.id === 'accident-scene');
