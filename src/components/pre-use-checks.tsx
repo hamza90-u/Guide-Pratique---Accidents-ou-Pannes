@@ -23,7 +23,7 @@ const checks = [
   {
     icon: TriangleAlert,
     title: "Signalement",
-    description: "Signaler tout dommage préexistant lors de la réception ou de la restitution du véhicule au service FM, ou par email : services.techniques.car.ma@alstomgroup.com"
+    description: <>Signaler tout dommage préexistant lors de la réception ou de la restitution du véhicule au service FM, ou par email : <strong className="font-semibold text-card-foreground">services.techniques.car.ma@alstomgroup.com</strong></>
   }
 ];
 
