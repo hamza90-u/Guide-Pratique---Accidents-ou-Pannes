@@ -5,7 +5,7 @@ import { Phone, Mail, LifeBuoy } from "lucide-react";
 const contacts = [
   { name: "Wafa LLD", number: "0522 58 38 58", tel: "+212522583858", type: 'tel' },
   { name: "Arval LLD", number: "0529 05 99 99", tel: "+212529059999", type: 'tel' },
-  { name: "Réclamations Techniques", email: "services.techniques.car.ma@alstom.com", type: 'mail' },
+  { name: "Réclamations Techniques", email: "services.techniques.car.ma@alstomgroup.com", type: 'mail' },
 ];
 
 export function AssistanceContacts() {
