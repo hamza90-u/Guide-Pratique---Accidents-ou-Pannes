@@ -6,7 +6,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const accidentSteps = [
   { icon: ParkingCircle, text: "Se garer sur le côté ou, idéalement, sur la bande d'arrêt d'urgence." },
-  { icon: TriangleAlert, text: "Sécuriser les lieux : Allumez les feux de détresse et placez le triangle de signalisation." },
+  { icon: TriangleAlert, text: "Sécuriser les lieux : Allumez les feux de détresse et placez le triangle de signalisation (à ~30m en ville et 100m sur autoroute)." },
   { icon: Shirt, text: "Se mettre en sécurité : Portez votre gilet de haute visibilité et mettez-vous à l'abri." },
   { icon: HeartPulse, text: "Vérifier s'il y a des blessés : Appelez les secours si nécessaire (Police, Pompiers)." },
   { icon: Contact, text: "Remplir le constat amiable : Échangez les informations avec les autres conducteurs." },
