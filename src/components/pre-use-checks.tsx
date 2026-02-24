@@ -8,12 +8,12 @@ const checks = [
   {
     icon: Car,
     title: "État général",
-    description: "Vérifier l'état général (carrosserie, pneus, rétroviseieurs, feux)."
+    description: "Vérifier l'état général (carrosserie, pneus, rétroviseieurs, feux...)."
   },
   {
     icon: Droplets,
     title: "Niveaux des fluides",
-    description: "Vérifier le niveau des fluides (huile, lave-glace)."
+    description: "Vérifier le niveau des fluides (gasoil, huile, lave-glace)."
   },
   {
     icon: FileText,
