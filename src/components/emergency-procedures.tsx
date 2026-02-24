@@ -28,7 +28,7 @@ const breakdownImage = PlaceHolderImages.find(p => p.id === 'breakdown-assist');
 
 export function EmergencyProcedures() {
   return (
-    <Card>
+    <Card className="overflow-hidden w-full">
       <CardHeader>
         <CardTitle className="font-headline text-2xl">Conduite à tenir en cas d'urgence</CardTitle>
         <CardDescription>Suivez ces étapes en cas d'accident ou de panne pour garantir votre sécurité.</CardDescription>
@@ -38,22 +38,23 @@ export function EmergencyProcedures() {
           <AccordionItem value="accident">
             <AccordionTrigger className="text-lg font-semibold">En cas d'accident</AccordionTrigger>
             <AccordionContent>
-              <div className="grid md:grid-cols-2 gap-6 pt-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pt-4">
                 <ul className="space-y-4">
                   {accidentSteps.map((step, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <step.icon className="h-5 w-5 mt-1 flex-shrink-0 text-primary" />
-                      <span>{step.text}</span>
+                      <span className="text-sm sm:text-base">{step.text}</span>
                     </li>
                   ))}
                 </ul>
-                <div className="relative min-h-[200px] rounded-lg overflow-hidden">
+                <div className="relative min-h-[200px] rounded-lg overflow-hidden pr-0 md:pr-2">
                   {accidentImage && (
                     <Image
                       src={accidentImage.imageUrl}
                       alt={accidentImage.description}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       data-ai-hint={accidentImage.imageHint}
                     />
                   )}
@@ -64,22 +65,23 @@ export function EmergencyProcedures() {
           <AccordionItem value="breakdown">
             <AccordionTrigger className="text-lg font-semibold">En cas de panne</AccordionTrigger>
             <AccordionContent>
-               <div className="grid md:grid-cols-2 gap-6 pt-4">
+               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pt-4">
                 <ul className="space-y-4">
                   {breakdownSteps.map((step, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <step.icon className="h-5 w-5 mt-1 flex-shrink-0 text-primary" />
-                      <span>{step.text}</span>
+                      <span className="text-sm sm:text-base">{step.text}</span>
                     </li>
                   ))}
                 </ul>
-                <div className="relative min-h-[200px] rounded-lg overflow-hidden">
+                <div className="relative min-h-[200px] rounded-lg overflow-hidden pr-0 md:pr-2">
                    {breakdownImage && (
                     <Image
                       src={breakdownImage.imageUrl}
                       alt={breakdownImage.description}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       data-ai-hint={breakdownImage.imageHint}
                     />
                   )}
