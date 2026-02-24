@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'Alstom Guide Mobile',
   description: 'Your mobile guide for Alstom vehicle usage and emergency procedures.',
+  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({
