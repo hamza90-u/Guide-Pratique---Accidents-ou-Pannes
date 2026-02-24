@@ -1,10 +1,11 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Camera, Contact, HeartPulse, PhoneForwarded, ShieldCheck, Shirt, TriangleAlert, Wrench } from "lucide-react";
+import { Camera, Contact, HeartPulse, ParkingCircle, PhoneForwarded, ShieldCheck, Shirt, TriangleAlert, Wrench } from "lucide-react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const accidentSteps = [
+  { icon: ParkingCircle, text: "Se garer sur le côté ou, idéalement, sur la bande d'arrêt d'urgence." },
   { icon: TriangleAlert, text: "Sécuriser les lieux : Allumez les feux de détresse et placez le triangle de signalisation." },
   { icon: Shirt, text: "Se mettre en sécurité : Portez votre gilet de haute visibilité et mettez-vous à l'abri." },
   { icon: HeartPulse, text: "Vérifier s'il y a des blessés : Appelez les secours si nécessaire (Police, Pompiers)." },
