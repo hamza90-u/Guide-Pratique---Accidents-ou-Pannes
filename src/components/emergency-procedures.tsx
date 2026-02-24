@@ -19,7 +19,7 @@ const breakdownSteps = [
   { icon: Shirt, text: "Se mettre en sécurité : Portez le gilet de haute visibilité et passez derrière la barrière de sécurité." },
   { icon: Wrench, text: "Ne pas tenter de réparation complexe : N'intervenez pas sur le moteur ou des pièces complexes." },
   { icon: PhoneForwarded, text: "Contacter l'assistance : Appelez Wafa LLD ou Arval LLD pour une aide technique." },
-  { icon: ShieldCheck, text: "Attendre les secours en sécurité : Restez à l'abri et loin de la circulation." },
+  { icon: ShieldCheck, text: "Attendre L’assistance : Restez à l'abri et loin de la circulation." },
 ];
 
 const accidentImage = PlaceHolderImages.find(p => p.id === 'accident-scene');
