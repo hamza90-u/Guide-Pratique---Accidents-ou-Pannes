@@ -25,7 +25,7 @@ export function AssistanceContacts() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <p className="font-semibold">{contact.name}</p>
-                  <p className="text-sm text-muted-foreground break-all">{contact.number || contact.email}</p>
+                  <p className="text-sm text-muted-foreground">{contact.number || contact.email}</p>
                 </div>
                 {contact.type === 'tel' ? <Phone className="h-5 w-5 text-muted-foreground" /> : <Mail className="h-5 w-5 text-muted-foreground" />}
               </div>
