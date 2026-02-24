@@ -11,7 +11,7 @@ const contacts = [
 
 export function EmergencyContacts() {
   return (
-    <Card>
+    <Card id="emergency-contacts" className="scroll-mt-24">
       <CardHeader>
         <CardTitle className="font-headline text-2xl">Contacts d'urgence</CardTitle>
         <CardDescription>Numéros à appeler immédiatement en cas de situation grave.</CardDescription>
